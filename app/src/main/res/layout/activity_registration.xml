@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D10606"
+    tools:context=".registration">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="#969DD0"
+        app:cardCornerRadius="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        >
+       <LinearLayout
+
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_marginTop="10dp"
+           android:layout_marginBottom="20dp"
+           android:layout_marginLeft="50dp"
+           android:layout_marginRight="50dp"
+
+         >
+           <EditText
+               android:id="@+id/username"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:inputType="textPersonName"
+               android:hint="Enter your name"
+               app:icon="@drawable/outline_encrypted_24"
+               android:drawableStart="@drawable/outline_account_box_24"/>
+        <EditText
+            android:id="@+id/emailid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Enter the email id"
+            android:drawableStart="@drawable/outline_attach_email_24"/>
+
+        <EditText
+            android:id="@+id/Password1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:hint="New password"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/outline_encrypted_24"/>
+         <EditText
+             android:id="@+id/Password2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:inputType="numberPassword"
+             android:hint="Confirm password"
+             android:layout_marginTop="10dp"
+             android:drawableStart="@drawable/outline_encrypted_24"/>
+
+           <EditText
+               android:id="@+id/phonenumber"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:inputType="number"
+               android:hint="+91999887786"
+               android:drawableStart="@drawable/outline_add_call_24"/>
+           <EditText
+               android:id="@+id/address"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:inputType="text"
+               android:hint="Address"
+               android:drawableStart="@drawable/outline_add_location_alt_24"/>
+           <EditText
+               android:id="@+id/bloodgroup"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:inputType="text"
+               android:hint="blood group"
+               android:drawableStart="@drawable/outline_bloodtype_24"/>
+           <Button
+               android:id="@+id/reg"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Register"
+               android:backgroundTint="#C10808"
+               android:layout_marginTop="20dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"/>
+
+       </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
