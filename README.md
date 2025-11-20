@@ -41,8 +41,8 @@
 
 Author:-
 ---------------------------------------------------------------------------------------------------
-Rakesh Kumar Saphi
-GitHub: @Rakesh9812
-Email: rajakrakesh781@gmail.com
+Rakesh Kumar Saphi:
+    GitHub: @Rakesh9812
+    Email: rajakrakesh781@gmail.com
 ------------------------------------------------------------------------------------------------------
    
